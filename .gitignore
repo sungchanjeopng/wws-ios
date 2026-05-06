@@ -1,0 +1,40 @@
+# Xcode / Swift
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+!*.xcodeproj/project.pbxproj
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# CocoaPods / Carthage / SwiftPM artifacts
+Pods/
+Carthage/Build/
+Package.resolved
+
+# Build artifacts
+build/
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
